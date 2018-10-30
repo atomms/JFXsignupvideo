@@ -9,6 +9,11 @@ import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.scene.media.MediaView;
 
+/**
+ * 
+ * @author ernesto
+ *
+ */
 public class Controller implements Initializable {
 
     @FXML
