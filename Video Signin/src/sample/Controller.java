@@ -17,10 +17,10 @@ public class Controller {
 
     public void initialize() {
 
-        Media media2= new Media(getClass().getResource("media/Top_10_Extreme_Sports.mp4").toExternalForm());
-        MediaPlayer player=new MediaPlayer(media2);
+        Media media1= new Media(getClass().getResource("media/Top_10_Extreme_Sports.mp4").toExternalForm());
+        MediaPlayer player=new MediaPlayer(media1);
         mediaView.setMediaPlayer(player);
-        player.setVolume(0);
+        player.setVolume(0.5);
         player.play();
 
     }
